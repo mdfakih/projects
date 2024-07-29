@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+ol li::marker {
+  font-size: 1.5em;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+summary {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.name {
+  font-size: 2em;
+}
+
+.nav_div {
+  margin: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav_links {
+  display: flex;
+  gap: 20px;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.web_container {
+  width: 100%;
+  padding: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+  flex-wrap: wrap;
+}
+
+.cont {
+  width: 100%;
+  max-width: 50%;
+}
